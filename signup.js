@@ -6,7 +6,7 @@ form.addEventListener('submit',(event)=>{
     var userEmail= document.getElementById('email').value;
     if (passWord1!== userPassword) {
         console.log(alert('password is in correct'))
-    } return user
+    } 
     var user ={
         email:userEmail,
         password1: passWord1,
