@@ -47,10 +47,14 @@ button{
 }
 #cancel{
     float: right;
+    border: 3px solid black;
     margin: 0 10px;
-    background-color: red;
-    text-decoration: none;
-    color: black;
+     background-color: red;
+     font-size: 15px; 
+     border-radius: 5px;
+     font-weight: bold;
+     text-decoration: none;
+     color: green;
 }
 #signup{
     background-color: green;
