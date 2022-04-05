@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #d3e0ed;
+
 }
 img{
     width: 100%;
@@ -13,22 +15,36 @@ img{
     border-bottom: black;
 }
 input{
-    border: none;
     padding:10px 40px;
     border-radius:  10px 70px;
     width: 500px;
     height: 60px;
+    background-color:#0B1956;
+    color:white ;
+    font-size: medium;
 }
 button{
+    margin-top: 10px;
+    font-weight: bold;
     padding: 15px;
     border-radius: 19px;
+    
+    background-color:#F2BA73 ;
 }
-#content{
-position: absolute;
-top:30%;
-left:50% ;
-transform: translate(-30% -50%);
+h1{
+    font-size: 40px;
+    
 }
-
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 25px;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
     
     
