@@ -12,19 +12,21 @@
     <header>
         <img src="/images/bg-desktop-light.jpg" alt="">
     </header>
-    <div id="content">
-        <h1>T O D O</h1>
-        <div class="new-list"><input type="checkbox" name="" class="input1">
-            <input type="text" placeholder="create a new todo" class="input-area">
-        </div>
-        <div class="todo-set">
-            <input type="checkbox">
-            <input type="text">
-            <button id="add-item">add item</button>
-            <button id="remove-item">remove item</button>
-        </div>
+
+    <div>
+        <!-- form for creating and deleting todos -->
+        <form action="" class="content" name="form">
+            <h1> TODO </h1>
+            <h3>kindly fill in the form</h3>
+            <p>Type in your todo</p>
+            <input type="text" placeholder="todo" required id="todo">
+            <div class="button">
+                <button id="add">create to do</button>
+            </div>
+        </form>
     </div>
-    <script src="/todo.js\"></script>
+    <ul id="todo-list"></ul>
+    <script src="todo.js"></script>
 </body>
 
 </html>
