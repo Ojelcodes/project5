@@ -11,7 +11,7 @@ function login(event){
     var errorField= document.getElementById('error-message');
 
     var users= JSON.parse(localStorage.getItem('users'));
-    if(!users || !users.length>0){
+    if(!users){
         errorField.innerHTML= 'user not found';
         return
     }
