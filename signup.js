@@ -15,7 +15,6 @@ function signUp(event){
     var errorField= document.getElementById('error-message');
 
     if (passWord1 !== userPassword) {
-        console.log(alert('password is in incorrect'))
         errorField.innerHTML= 'password is incorrect';
         return
     }
