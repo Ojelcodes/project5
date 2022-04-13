@@ -17,6 +17,7 @@ function login(event){
     }
     var user= users.find(user=>user.email===userEmail && user.password===userPassword);
     if(user){
+        localStorage.setItem('login_user', user.email);
         window.location.href='todo.html';
     } else {
         errorField.innerHTML= 'email or password is incorrect';

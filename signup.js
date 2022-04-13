@@ -25,13 +25,10 @@ function signUp(event){
 
     // check if users exist in local storage, if yes push new user to the array else create new array and push new user to it
     var users= JSON.parse(localStorage.getItem('users'));
-    if(users.length>0){
-        users.push(user);
-        localStorage.setItem('users', JSON.stringify(users));
-    } else {
-        users=[user];
-        localStorage.setItem('users', JSON.stringify(users));
-    }
+    users.push(user);
+    localStorage.setItem('users', JSON.stringify(users));
+    localStorage.setItem('login_user', user.email);
+
     // redirect to todo page
     window.location.href='todo.html';
 }
